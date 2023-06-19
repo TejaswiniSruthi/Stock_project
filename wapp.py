@@ -8,6 +8,8 @@ import pandas_datareader as data
 import yfinance as yf
 from keras.models import load_model
 import streamlit as st
+import tensorflow as tf
+
 
 start = '2010-01-01'
 end = '2020-12-31'
